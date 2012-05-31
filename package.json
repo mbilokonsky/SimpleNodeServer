@@ -1,0 +1,25 @@
+{
+	"name": "MykOtherServer",
+	"version":"v0.0.1",
+	"description": "This is a simple test server.",
+	"homepage": "http://mykola.at",
+
+	"author": { 
+		"name" : "Mykola Bilokonsky",
+		"email" : "myk@skai.net",
+		"url" : "http://mykola.at"
+	},
+
+	"repository" : { 
+		"type" : "git",
+		"url" : "http://github.com/mbilokonsky/SimpleNodeServer.git"
+	},
+
+	"main": "main",
+	"start": "main",
+
+	"dependencies": {
+		"express": ">=3.0.0alpha1",
+		"skai": "git+ssh://git@github.com:SkaiLab/Skai-for-Node.git"
+	}
+}
